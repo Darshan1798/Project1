@@ -1,0 +1,6 @@
+---
+- name: Performing the task
+  hosts: Automation
+  roles:
+    - gradle
+    - junit_jacoco
